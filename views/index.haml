@@ -1,0 +1,14 @@
+!!! 5
+%html
+  %head
+    %title "Current Pull Request Totals"
+    %meta{name: 'viewport', content: "width=device-width, initial-scale=1.0"}
+    %link{href: "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css", rel:'styelsheet', media: 'screen'}
+  %body
+    %h1 Open: #{@open.count}
+    %h1 Closed: #{@closed.count}
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    %script{type: 'text/javascript', src: "//code.jquery.com/jquery.js"}
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    %script{type: 'text/javascript', src: "//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"}
